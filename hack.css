@@ -1,0 +1,52 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  height: 100vh;
+}
+
+hack {
+  width: 100vw !important;
+  height: 600px !important;
+  background-color: black !important;
+  color: red !important;
+  display: flex !important ;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+h1 {
+  margin-bottom: 30px !important;
+}
+
+hack h1 {
+  font-size: 50px;
+}
+
+#hacking-terminal {
+  padding-top: 20px;
+  width: 50%;
+  overflow-y: scroll;
+  background: black;
+}
+
+#hacking-terminal p {
+  font-size: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h2 {
+  color: white !important;
+}
+
+#hacking-container {
+  color: red !important;
+  background: black;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
